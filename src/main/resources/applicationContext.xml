@@ -5,8 +5,11 @@
     http://www.springframework.org/schema/beans
     http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean id="testBean" class="org.example.TestBean">
-        <constructor-arg value="SoD" />
+    <bean id="musicBean" class="org.example.RockMusic">
+    </bean>
+    <bean id="musicBean1" class="org.example.PopMusic">
+    </bean>
+    <bean id="musicBean2" class="org.example.ClassicalMusic">
     </bean>
 
 </beans>
